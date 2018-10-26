@@ -5,18 +5,18 @@ Fungsi ini digunakan untuk debug data ke halaman web, fungsi dipanggil melalui c
 
 Contohnya sebagai berikut:
 
-`public function index() {
-    $data = [
-        'hari'=>'Senin',
-              'Selasa',
-              'Rabu',
-              'Kamis',
-              'Jumat',
-              'Sabtu',
-              'Minggu'
-    ];
-    dd($data);
-    return View::make('welcome');
- }`
+`public function index() {`
+    `$data = [`
+        `'hari'=>'Senin',`
+              `'Selasa',`
+              `'Rabu',`
+              `'Kamis',`
+              `'Jumat',`
+              `'Sabtu',`
+              `'Minggu'`
+    `];`
+    `dd($data);`
+    `return View::make('welcome');`
+ `}`
 
 Fungsi dd() hanya digunakan pada Framework Laravel. Jika menggunakan PHP Sktruktural maupun framework PHP yang lain, dd() tidak dapat digunakan.
